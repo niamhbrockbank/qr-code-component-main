@@ -2,11 +2,13 @@ body {
     display: flex;
     justify-content : center;
     text-align : center;
-    background-color : hsl(212, 45%, 89%)
+    background-color : hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
 }
 
 img {
     border-radius: 20px;
+    width : 450px
 }
 
 #mainSection {
@@ -16,13 +18,17 @@ img {
 }
 
 #textSection {
-    border : 1px solid red;
+    /* border : 1px solid red; */
+    width : 400px;
+    margin : auto
 }
 
 #heading {
-    color : hsl(218, 44%, 22%)
+    color : hsl(218, 44%, 22%);
+    font-size : 35px
 }
 
 #caption {
-    color : hsl(220, 15%, 55%)
+    color : hsl(220, 15%, 55%);
+    font-size: 25px;
 }
