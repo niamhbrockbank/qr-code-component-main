@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content : center;
+    text-align : center;
+    background-color : hsl(212, 45%, 89%)
+}
+
+img {
+    border-radius: 20px;
+}
+
+#mainSection {
+    background-color:hsl(0, 0%, 100%);
+    padding : 25px; 
+    border-radius : 20px
+}
+
+#textSection {
+    border : 1px solid red;
+}
+
+#heading {
+    color : hsl(218, 44%, 22%)
+}
+
+#caption {
+    color : hsl(220, 15%, 55%)
+}
